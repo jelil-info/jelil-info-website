@@ -1,0 +1,1938 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html  lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  
+  <title>InfoTechCrush | The home of building from ground up</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="Keywords" content="InfoTechCrush, The home of building from ground up"/>
+  <meta name="author" content="Oyekanmi Oyetunji"/>
+  <meta name="refresh" content="30"/>
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  
+  <script src="https://kit.fontawesome.com/40c559f4dd.js"></script>
+<style>
+  html {
+  scroll-behavior: smooth;
+}
+
+ *    {
+  box-sizing: border-box;
+  
+}
+
+body  {
+  font-family: "Montserrat", "Open Sans", sans-serif;
+  font-size: 100%;
+
+  margin: 0px; 
+  background-color:rgb(255,255,255);
+}
+header {
+padding:20px;
+height:800px;
+background-image: url("C:Users/Oyekanmi Jelil/Desktop/external/COPY/my doc/skills/programming skills/Website pics/blankPic.png");
+text-align: center;
+}
+
+.myIntro {
+  border: 1px solid white;
+  padding: 10px;
+  color: rgb(255, 102, 102);
+  max-width: 1000px;
+  margin: auto;
+  height: 200px;
+  text-align: justify;
+  text-transform: capitalize;
+  text-shadow: 2px 1px white;
+  
+  font-size: 2em;
+}
+
+@media only screen and (max-width: 954px) {
+  .myIntro {
+              /*overflow-y: scroll;
+              width: 400px;
+              height: 200px;*/
+              font-size: 1.5em;
+              
+              color:   rgb(255, 102, 102);
+            }
+  }
+
+   
+  
+div.intro {
+  position: absolute; 
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%,-50%);
+}
+
+div.myWork {
+  
+  border-radius: 4px;
+  color:  rgb(255, 102, 102);
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  transition-duration: 0.5s;
+  margin: 5px;
+  cursor: pointer;
+
+} 
+
+
+
+
+div.myWork a { 
+   border: 2px solid white;
+   padding: 10px;
+   
+}
+
+
+div.myWork a:hover { 
+   background-color: rgb(255, 102, 102);
+}
+
+div.myWork span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+div.myWork span::after {
+  content: "\21E9 ";
+  position:absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+div.myWork:hover span { 
+padding-right: 25px;
+}
+div.myWork:hover span:after { 
+opacity: 1;
+right: 0;
+}
+
+
+a.view{
+   text-decoration: none;
+
+  border: none;
+  outline: 0;
+  display: inline-block;
+  
+  color: white;
+  
+  text-align: center;
+  cursor: pointer;
+}
+
+
+/*.menu-icon {
+
+  width: 35px;
+  
+
+  margin: 6px 0;
+  background-color: rgb(255, 102, 102);
+}*/
+
+nav.show-nav {
+  
+  background-color: #333;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  border-bottom: 4px solid rgb(255, 102, 102);
+  z-index: 1;
+}
+
+nav.show-nav  ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  
+  }
+
+
+/* Style the navigation bar links */
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+/* Change color on hover */
+ul.topnav li a:hover:not(.active) {
+  background-color:rgb(255, 102, 102);
+}
+
+ul.topnav li a.active {
+  background-color: red;
+}
+
+
+@import url(fonts.googleapis.com/css2?family=Aguafina+Script&display=swap);
+
+
+
+
+ul.topnav li span.myIcon {
+  
+  
+  display: block;
+  color: rgb(255, 102, 102);
+  
+  padding: 14px 16px;
+  font-family: 'Aguafina Script', cursive;
+  font-size: 20px;
+  }
+
+  ul.topnav li span.myIcon:hover:not(.active) {
+  color:rgb(255, 102, 102,0.5);
+}
+
+
+
+
+
+
+
+nav.hide-nav {
+                                                                    
+  background-color: #333;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  border-bottom: 4px solid rgb(255, 102, 102);
+  padding: 0x;
+  z-index: 1;
+}
+
+div.myIcon2 {
+  display: block;
+  color: rgb(255, 102, 102);
+  
+  padding: 14px 16px;
+  font-family: 'Aguafina Script', cursive;
+  font-size: 20px;
+  }
+
+  
+div.myIcon2:hover:not(.active) {
+  color:rgb(255, 102, 102,0.5);
+}
+
+.dropdown {
+   padding: 0px;
+}
+
+.dropbtn {
+  
+  color: white;
+  padding: 5px;
+  font-size: 5px;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  
+  
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: rgb(255, 102, 102);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+  list-style-type: none;
+  
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: rgb(255, 102, 102);}
+
+.show {display: block;
+}
+
+
+@media only screen and (max-width: 700px) {
+  nav.show-nav {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  nav.hide-nav {
+    display: none;
+  }
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+span.myName {color: teal;}
+
+
+ .about {
+      text-align: center;
+      margin-top: 100px;
+      /*margin-bottom: 100px;*/
+      padding: 5px;
+      font-size: 40px;
+      color: black;
+      
+  }  
+
+  /*.aboutLine {
+    text-decoration: none;
+    border-bottom: 4px solid black;
+    padding-bottom: 15px;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-weight: bold;
+   }*/
+
+
+/*hr {width: 60%;margin-left: auto;margin-right: auto;}
+hr {width: 300px;
+margin-left:auto;margin-right: auto;
+height: 10px;
+background-color:#666;
+opacity: 0.5;
+}*/
+
+hr.aboutLine {
+width: 80px;
+height: 8px;
+margin-left: auto;
+margin-right: auto;
+background-color:black;
+border: 0 none;
+margin-top: 20px;
+margin-bottom:100px;
+}
+
+/*hr.aboutLine {
+width: 1px;
+height: 1px;
+margin-left: 1px;
+margin-right: 1px;
+background-color:black;
+border: 0 none;
+margin-top: 1px;
+margin-bottom:1px;
+opacity: .6;
+transition: width 2s,height 2s,margin-left 2s,margin-right 2s,margin-top 2s,margin-bottom 2s;
+}
+
+hr.aboutLine:hover {
+width: 80px;
+height: 8px;
+margin-left: auto;
+margin-right: auto;
+background-color:black;
+border: 0 none;
+margin-top: 20px;
+margin-bottom:100px;
+opacity: .6;
+}*/
+
+
+
+
+
+
+.galleryIcon  {
+     border: 1px solid #ccc;
+     text-align: center;
+}
+
+.explainIcon {
+ 
+  text-align: center;
+  padding-bottom: 90px;
+  opacity: .6; 
+  
+}
+
+
+.responsiveIcon {
+  padding: 0 6px;
+  float: left;
+  width: 100% 
+  
+}
+
+@media only screen and (min-width: 600px) {
+  .responsiveIcon {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .responsiveIcon {
+    width: 24.99999%;;
+  }
+  }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+ }
+
+ .icon {
+   font-size: 270%;
+   height: auto;
+   color: blue;
+  }
+
+  .flexMe {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-around;
+   height: 600px;
+   
+   
+  }
+
+  .flexMe > div {
+     
+     margin: 10px;
+     font: 16px;
+     width: 100%;
+     
+     text-align: center;
+     line-height: 75px;
+     
+  }
+
+  
+  .briefMe {
+    
+    padding: 20px;  
+  }
+
+  .briefMePic {
+    border: 1px solid #ccc;
+  }
+
+  .briefMePic img {
+    border-radius: 50%;
+    height: auto;
+  }
+
+  .briefMeText {
+    padding: 15px;
+    text-align: center;
+    line-height: 20px;
+  }
+
+  
+
+.mySkillSet {
+    
+    padding-top: 76px;
+    
+    
+  }
+  
+
+
+  #mySkill {
+    width: 100%;
+    background-color: #ddd;
+    margin-top: -55px ;
+    
+  }
+  
+  
+
+
+#myStage {
+  width: 20%;
+  height: 16px;
+  background-color: #4CAF50;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  
+  
+}
+
+        .main {
+            margin: 50px auto;
+            width: 60%;
+            
+            
+        }
+        .progressBar{
+            position: relative;
+            width: 100%;
+            height: 40px;
+            background: rgb(255,255,255);
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 1px 2px #222;
+            z-index: -1;
+            }
+
+        .title{
+            position: absolute;
+            width: 100px;
+            height: 40px;
+            padding-left: 10px;
+            float: left;
+            font-weight: bold;
+            color: black;
+            line-height: 2.5;
+            z-index: 10000;
+            border-top-left-radius: 5px ;
+            border-bottom-left-radius: 5px;
+            box-shadow:  1px 1px 1px #000
+        }
+
+        .javascriptProgress1{
+            height: 40px;
+            position: absolute;
+            border-radius: 5px ;
+            box-shadow: 2px 0 2px #555;
+            background:  #ff6666;
+            width: 60%;
+        }
+
+        .html5Progress2{
+            height: 40px;
+            position: absolute;
+            border-radius: 5px ;
+            box-shadow: 2px 0 2px #555;
+            background: #ff6666;
+            width: 90%;
+        }
+
+        .css3Progress3 {
+            height: 40px;
+            position: absolute;
+            border-radius: 5px ;
+            box-shadow: 2px 0 2px #555;
+            background: #ff6666;
+            width: 90%;
+        }
+
+        .nodejsProgress4 {
+            height: 40px;
+            position: absolute;
+            border-radius: 5px ;
+            box-shadow: 2px 0 2px #555;
+            background: #ff6666;
+            width: 65%;
+        }
+
+        .angularjsProgress5 {
+            height: 40px;
+            position: absolute;
+            border-radius: 5px ;
+            box-shadow: 2px 0 2px #555;
+            background: #ff6666;
+            width: 70%;
+        }
+
+        .bootstrap4Progress6 {
+            height: 40px;
+            position: absolute;
+            border-radius: 5px ;
+            box-shadow: 2px 0 2px #555;
+            background: #ff6666;
+            width: 90%;
+        }
+
+        .reactjsProgress7 {
+            height: 40px;
+            position: absolute;
+            border-radius: 5px ;
+            box-shadow: 2px 0 2px #555;
+            background: #ff6666;
+            width: 60%;
+        }
+
+        .vuejsProgress8 {
+            height: 40px;
+            position: absolute;
+            border-radius: 5px ;
+            box-shadow: 2px 0 2px #555;
+            background: #ff6666;
+            width: 60%;
+        }
+
+
+
+        .progressValue {
+            position: relative;
+            float: right;
+            padding-right: 10px;
+            line-height: 2.5;
+            font-weight: bold;
+            color: black;
+            z-index: 10000;
+        }
+        .javascriptColor{
+            background:#ff9999;
+            width: 35%;
+            animation: htmlColor 2s;
+        }
+        .html5Color{
+            background: #ff9999;
+            width: 35%;
+            animation: htmlColor 2s;
+        }
+        .css3Color{
+            background: #ff9999;
+            width: 35%;
+            animation: htmlColor 2s;
+        }
+        .nodejsColor{
+            background: #ff9999;
+            width: 35%;
+            animation: htmlColor 2s;
+        }   
+        
+        .angularjsColor{
+            background: #ff9999;
+            width: 35%;
+            animation: htmlColor 2s;
+        }
+
+        .bootstrap4Color{
+            background: #ff9999;
+            width: 35%;
+            animation: htmlColor 2s;
+        }
+
+        .reactjsColor{
+            background: #ff9999;
+            width: 35%;
+            animation: htmlColor 2s;
+        }
+
+        .reactjsColor{
+            background: #ff9999;
+            width: 35%;
+            animation: htmlColor 2s;
+        }
+
+        .vuejsColor{
+            background: #ff9999;
+            width: 35%;
+            animation: htmlColor 2s;
+        }
+
+        
+
+        @media only screen and (min-width: 600px) {
+  
+          .flexMe > div {
+                 width: 45%;
+                }
+        }
+
+        .portfolio {
+            text-align: center;
+            margin-top: 100px;
+            /*margin-bottom: 100px;*/
+            padding: 5px;
+            font-size: 40px;
+            color: black;
+        }
+
+        hr.portfolioLine {
+           width: 80px;
+           height: 8px;
+           margin-left: auto;
+           margin-right: auto;
+          background-color:black;
+          border: 0 none;
+          margin-top: 20px;
+          margin-bottom:100px;
+          }
+
+        
+
+     
+ 
+
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+ .btn.active {
+  background-color: red;
+  color: white;
+}
+.text {
+white-space: nowrap; 
+color: blue;
+font-size: 20px;
+
+overflow: hidden;
+}
+
+
+.projectLink:link, .projectLink:visited {
+background-color: turquoise; 
+color:red;
+border: 2px solid green;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+cursor: pointer;
+transition: all 2s;
+}
+
+.projectLink:hover, .projectLink:active {
+background-color: green; 
+color:white;
+}
+
+@media only screen and (max-width: 600px) {
+ .main1 {margin-top: 500px;}
+}
+
+
+.infoNews {
+      text-align: center;
+      margin-top: 100px;
+      /*margin-bottom: 100px;*/
+      padding: 5px;
+      font-size: 40px;
+      color: black;
+     }
+
+
+.infoNewsLine {
+  width: 80px;
+  height: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:black;
+  border: 0 none;
+  margin-top: 20px;
+  margin-bottom:100px;
+}       
+
+
+.slideContainerB {
+  padding:0.01em 16px
+}
+.slideContent {
+  margin-left:auto;
+  margin-right:auto
+}
+.slideContent {
+  max-width:980px
+}
+.slideSection {
+  margin-top:16px!important;
+  margin-bottom:16px!important
+}
+.topAnimate {
+  position:relative;
+  animation:animatetop 0.4s
+}
+@keyframes animatetop {
+  from{top:-300px;opacity:0} 
+  to{top:0;opacity:1
+  }
+  }
+.bottomAnimate {
+  position:relative;
+  animation:animatebottom 0.4s
+}
+@keyframes animatebottom {
+  from{bottom:-300px;opacity:0} 
+  to{bottom:0;opacity:1
+}
+}
+.slideShows {
+  display: none
+}
+.slideOrder img {
+  vertical-align: middle;
+}
+/* Slideshow container */
+.slideContainerA {
+max-width: 500px;
+position: relative;
+margin: auto;
+}
+/* Next & previous buttons */
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+right: 17px;
+border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8);
+}
+/* Caption text */
+.slideText {
+color: #f2f2f2;
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
+}
+/* Number text (1/3 etc) */
+.slideOrder {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+/* The dots/bullets/indicators 
+.slideIndicator {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}*/
+/* The style of the Image slide as link */
+.slideLink {
+    border-radius: 25px;
+    cursor: pointer;
+}
+.slideLink:hover {
+    opacity: 0.7;
+    
+}
+
+/*.active, .slideIndicator:hover {
+background-color: #717171;
+}*/
+/* Fading animation */
+.fadeSlide {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+.prev, .next,.text {font-size: 11px}
+}
+
+.formField {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/*.formField {
+  margin-left:450px;
+  
+}*/
+
+
+input[type=text], input[type=email], textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #3CBC8D;
+}
+
+textarea {
+  font-size: 16px;
+  resize: none;
+}
+
+input[type=text]:focus {
+  background-color: lightblue;
+  border: 3px solid #555;
+}
+
+input[type=email]:focus {
+  background-color: lightblue;
+  border: 3px solid #555;
+}
+
+textarea:focus {
+  background-color: lightblue;
+  border: 3px solid #555;
+}
+
+input[type=submit] {
+  float: right;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+.myForm1 {
+  border-radius: 5px;
+  background-color: blue;
+  padding: 20px;
+  width: 500px;
+  height: 500px;
+}
+
+
+
+
+
+
+
+
+
+    
+
+.formContainer:after,.formContainer:before {
+   content:"";
+   display:table;
+   clear:both
+   }
+.formContainer {
+   padding:0.01em 16px
+   }
+.formGrey {
+   color:#000!important;
+   background-color:#f1f1f1!important
+   }
+.formCenter {
+      text-align:center;
+      text-align: center;
+      margin-top: 100px;
+      /*margin-bottom: 100px;*/
+      padding: 5px;
+      font-size: 40px;
+      color: black;
+   }
+.formCenter {
+   text-align:center!important
+   }
+.formCenterLine {
+  width: 80px;
+  height: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:black;
+  border: 0 none;
+  margin-top: 20px;
+  margin-bottom:100px;
+
+}
+.formLarge {
+   font-size:18px!important
+   }
+.formxxlarge {
+   font-size:36px!important
+   }
+.formMarginRight {
+   margin-right:16px!important
+   }
+.formInput {
+   padding:8px;
+   display:block;
+   border:none;
+   border-bottom:1px solid #ccc;
+   width:100%
+   }
+.formBorder {
+   border:1px solid #ccc!important
+   }
+.formButton {
+   border:none;
+   display:inline-block;
+   padding:8px 16px;
+   vertical-align:middle;
+   overflow:hidden;
+   text-decoration:none;
+   color:inherit;background-color:inherit;
+   text-align:center;
+   cursor:pointer;
+   white-space:nowrap
+   }
+.formButton:disabled {
+   cursor:not-allowed;
+   opacity:0.3
+   }
+.formButton:hover {
+   color:#000!important;
+   background-color:#ccc!important
+   }
+.formButton {
+  -webkit-touch-callout:none;
+   -webkit-user-select:none;
+   -khtml-user-select:none;
+   -moz-user-select:none;
+   -ms-user-select:none;
+   user-select:none
+   }
+.formButton {
+   width:100%;
+   text-align:left;
+   padding:8px 16px
+   }
+.formButton {
+   width:100%;
+   text-align:left;
+   padding:8px 16px
+   }
+.formButton {
+   white-space:normal
+   }
+@media (max-width:600px){
+   .w3-button{width:100%}
+   }
+.formBlack {
+   color:#fff!important;
+   background-color:#000!important
+   }
+
+   
+  .footerCenter{
+     text-align:center!important
+     }
+.footerBlack {
+   color:#fff!important;
+   background-color:#000!important
+   }
+.footerPadding{
+   padding-top:64px!important;
+   padding-bottom:64px!important
+   }
+
+
+
+.footerButton:hover{color:#000!important;
+   background-color:#ccc!important
+   }
+.footerButton{
+  border:none;
+  display:inline-block;
+padding:8px 16px;
+vertical-align:middle;
+overflow:hidden;
+text-decoration:none;
+color:inherit;
+background-color:inherit;
+text-align:center;
+cursor:pointer;
+white-space:nowrap
+}
+.footerButton{
+  -webkit-touch-callout:none;
+-webkit-user-select:none;
+-khtml-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+user-select:none
+}
+.footerButton:disabled{
+  cursor:not-allowed;
+  opacity:0.3
+  }
+
+.footerButton{
+  white-space:normal
+  }
+
+
+
+.footerGrey{
+  color:#000!important;
+background-color:#f1f1f1!important
+}
+
+.footerRight{
+  margin-right:16px!important
+}
+.footerLarge{
+  font-size:24px!important
+  }
+.footerSection{margin-top:16px!important;
+margin-bottom:16px!important
+}
+
+.footerOpacity:hover{opacity:0.60}
+
+.footerGreen:hover{color:#4CAF50!important}
+
+
+
+@keyframes fade-in {
+    from {opacity: 0; transform: scale(.7,.7)}
+    to {opacity: 1;}
+}
+.fade-in-element {
+  animation: fade-in 1.4s;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+        
+
+        
+        
+       
+
+
+
+
+  
+   
+
+  
+
+
+  
+
+  
+    
+ 
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+</style>
+
+</head>
+
+
+
+<body onload="typeWriter()">
+  
+     <header id="home">
+       <div class="intro" >
+         <h1 id="myIntro" class="myIntro"></h1>
+           <div class="myWork" style= "vertical-align: middle;">
+           <a class="view" href="#foot"><span>view my work</span></a>
+           </div>
+       </div>
+     </header>
+ 
+    <nav id="navbar" class="show-nav">
+    <ul class="topnav hidden fade-in-element">
+    <li><a class="activeNav" href="#home">HOME</a></li>
+    <li><a href="#about">ABOUT</a></li>
+    <li><a href="#portfolio">PORTFOLIO</a></li>
+    <li><a href="#news">INFOTECH NEWS</a></li>
+    <li><a href="#contact">CONTACT</a></li>
+    <li  style="float: right;"><span class="myIcon">InfoTechCrush</span></li>
+    </ul>
+    </nav>
+
+  <nav class="hide-nav hidden fade-in-element">
+    <div  class="myIcon2" style="float: right;"><span>InfoTechCrush</span></div>
+    <div class="dropdown" onclick="myFunction()">
+    <div  class="dropbtn" style="font-size: 20px;">&#x2630<br>Menu</div>
+    
+     <div id="myDropdown" class="dropdown-content">
+      <li><a class="activeNav" href="#home">HOME</a></li>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#portfolio">PORTFOLIO</a></li>
+      <li><a href="#news">INFOTECH NEWS</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+     </div>
+    </div>
+  </nav>
+  
+  
+      <section>
+     
+      <div class="about hidden fade-in-element"> 
+       <div class="aboutLine">ABOUT</div><hr class="aboutLine"/>
+      </div>
+       
+       <div class="aboutIcon" style="background-color: crimson;"></div>
+         
+       <div class="responsiveIcon">
+          <div class="galleryIcon">
+            <i class="fa fa-desktop icon"></i>
+              <div class="explainIcon"> 
+               <h3>Responsive</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+          </div>
+        </div>
+       </div>
+  
+        <div class="responsiveIcon">
+          <div class="galleryIcon">
+           <i class="fa fa-heart icon"></i>
+            <div class="explainIcon">
+             <h3>Passion</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+             </div>
+          </div>
+        </div>
+
+        <div class="responsiveIcon">
+          <div class="galleryIcon">
+           <i class="fa fa-diamond icon"></i>
+            <div class="explainIcon">
+             <h3>Design</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            </div>
+          </div>
+        </div>
+
+       <div class="responsiveIcon">
+          <div class="galleryIcon">
+            <i class="fa fa-cog icon"></i>      
+             <div class="explainIcon">
+               <h3>Support</h3>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+             </div>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>  
+      </section>
+    
+      <section class="flexMe hidden fade-in-element">
+  
+        <div class="briefMe">
+          <div class="briefMePic">
+            <img src="C:/Users/Oyekanmi Jelil/Desktop/EXTERNAL/COPY/my doc/CV/edited scan poc/jelil info edited.jpg" alt="my picture" style="width: 35%; margin-left: auto; margin-right: auto;">
+             <div class="briefMeText">
+               <h1>Oyekanmi Oyetunji Who's this guy?</h1>
+                 <p>I'm a Front-End Developer for ChowNow in Los Angeles, CA.
+                    I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.
+                    Let's make something special.</p>
+             </div>
+          </div>
+        </div>
+    
+        <div class="main" style="margin-top: 30px;">
+          
+          <div class="progressBar">
+               <div class="title javascriptColor">JavaScript</div>
+               <div id="progress1" class="javascriptProgress1 html"></div>
+               <div class="progressValue">60%</div>
+          </div>
+ 
+          <div class="progressBar">
+               <div class="title html5Color">HTML5</div>
+               <div id="progress2" class="html5Progress2 css"></div>
+               <div class="progressValue">90%</div>
+          </div>
+ 
+         <div class="progressBar">
+               <div class="title css3Color">CSS3</div>
+               <div id="progress3" class="css3Progress3 js"></div>
+               <div class="progressValue">90%</div>
+         </div>
+ 
+         <div class="progressBar">
+               <div class="title nodejsColor">Node.js</div>
+               <div id="progress4" class="nodejsProgress4 nodejs"></div>
+               <div class="progressValue">65%</div>
+         </div>
+ 
+         <div class="progressBar">
+               <div class="title angularjsColor">Angularjs</div>
+               <div id="progress5" class="angularjsProgress5 angularjs"></div>
+               <div class="progressValue">70%</div>
+         </div>
+
+         <div class="progressBar">
+                <div class="title bootstrap4Color">Bootstrap4</div>
+                <div id="progress6" class="bootstrap4Progress6 reactjs"></div>
+                <div class="progressValue">80%</div>
+         </div>
+
+         <div class="progressBar">
+          <div class="title reactjsColor">Reactjs</div>
+          <div id="progress7" class="reactjsProgress7 vuejs"></div>
+          <div class="progressValue">55%</div>
+        </div>
+
+        <div class="progressBar">
+          <div class="title vuejsColor">Vuejs</div>
+          <div id="progress8" class="vuejsProgress8 digital"></div>
+          <div class="progressValue">55%</div>
+        </div>
+      </div>
+    </section>
+  
+  
+    
+<section class="main1">
+  <!-- MAIN (Center website) -->
+<div class="main hidden fade-in-element">
+
+  
+  
+  <div class="portfolio">PORTFOLIO</div><hr class="portfolioLine"/>
+  
+  <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('nature')"> Nature</button>
+    <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+    <button class="btn" onclick="filterSelection('people')"> People</button>
+  </div>
+  
+  <!-- Portfolio Gallery Grid -->
+  <div class="row">
+    
+    
+    
+  <div class="column nature">
+      <div class="content">
+        <img src="C:/Users/Public/Pictures/Sample Pictures/Desert.jpg" 
+        alt="Cinque Terre" width="100%">
+        <p>InfoTech News</p>
+        <b><a class="projectLink" target="_blank" href="img_forest.jpg">LEARN MORE</a></b>
+      </div>
+  </div>
+    
+   <div class="column nature">
+      <div class="content">
+        <img src="C:/Users/Public/Pictures/Sample Pictures/Desert.jpg" 
+        alt="Cinque Terre" width="100%">
+        <p>InfoTech News</p>
+      <b><a class="projectLink" target="_blank" href="img_forest.jpg">LEARN MORE</a></b>
+      </div>
+    </div>
+    
+    
+    
+    <div class="column cars">
+      <div class="content">
+        <img src="C:/Users/Public/Pictures/Sample Pictures/Desert.jpg" 
+        alt="Cinque Terre" width="100%">
+        <p>InfoTech News</p>
+        <b><a class="projectLink" target="_blank" href="img_forest.jpg">LEARN MORE</a></b>
+      </div>
+    </div>
+    
+    <div class="column cars">
+      <div class="content">
+        <img src="C:/Users/Public/Pictures/Sample Pictures/Desert.jpg" 
+        alt="Cinque Terre" width="100%">
+        
+        <p>InfoTech News</p>
+      <b><a class="projectLink" target="_blank" href="img_forest.jpg">LEARN MORE</a></b>
+      </div>
+    </div>
+  
+    <div class="column people">
+      <div class="content">
+        <img src="C:/Users/Public/Pictures/Sample Pictures/Desert.jpg" 
+    alt="Cinque Terre" width="100%">
+    <p>InfoTech News</p>
+    <b><a class="projectLink" target="_blank" href="img_forest.jpg">LEARN MORE</a></b>
+      </div>
+    </div>
+    
+    <div class="column people">
+      <div class="content">
+        <img src="C:/Users/Public/Pictures/Sample Pictures/Desert.jpg" 
+        alt="Cinque Terre" width="100%">
+        <p>InfoTech News</p>
+      <b><a class="projectLink" target="_blank" href="img_forest.jpg">LEARN MORE</a></b>
+      </div>
+    </div>
+    
+  <!-- END GRID -->
+  </div>
+  
+  <!-- END MAIN -->
+  </div>
+  
+  </section>
+    
+    <article  style="margin-top: 150px;">
+      <div class="infoNews hidden fade-in-element" style="text-align: center;">InfoTech News</div><hr class="infoNewsLine"/>
+      
+      <div class="slideContainerA slideContainerB">
+
+        <div class="slideShows fadeSlide slideContent slideSection">
+        <div class="topAnimate">
+        <div class="slideOrder">1 / 4</div>
+        <a href="default.asp" target="_blank">
+        <img class="slideLink" 
+        src="C:/Users/Public/Pictures/Sample Pictures/Desert.jpg" 
+        style="width:100%">
+        </a>
+        <div class="slideText">Caption Text</div>
+        </div>
+        </div>
+        
+        <div class="slideShows fadeSlide slideContent slideSection">
+        <div class="bottomAnimate">
+        <div class="slideOrder">2 / 4</div>
+        <a href="default.asp" target="_blank">
+        <img class="slideLink" 
+        src="C:/Users/Public/Pictures/Sample Pictures/Desert.jpg" 
+        style="width:100%">
+        </a>
+        <div class="slideText">Caption Two</div>
+        </div>
+        </div>
+        
+        <div class="slideShows fadeSlide slideContent slideSection">
+        <div class="topAnimate">
+        <div class="slideOrder">3 / 4</div>
+        <a href="default.asp" target="_blank">
+        <img class="slideLink" 
+        src="C:/Users/Public/Pictures/Sample Pictures/Desert.jpg" 
+        style="width:100%">
+        </a>
+        <div class="slideText">Caption Three</div>
+        </div>
+        </div>
+        
+        <div class="slideShows fadeSlide slideContent slideSection">
+        <div class="bottomAnimate">
+        <div class="slideOrder">4 / 4</div>
+        <a href="default.asp" target="_blank">
+        <img class="slideLink" 
+        src="C:/Users/Public/Pictures/Sample Pictures/Desert.jpg" 
+        style="width:100%">
+        </a>
+        <div class="slideText">Caption Four</div>
+        </div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>  
+        
+        
+        </div>
+        <br>
+        <div style="text-align:center">
+        <span class="slideIndicator" onclick="currentSlide(1)"></span>
+        <span class="slideIndicator" onclick="currentSlide(2)"></span>
+        <span class="slideIndicator" onclick="currentSlide(3)"></span>
+        <span class="slideIndicator" onclick="currentSlide(3)"></span>
+        </div>
+
+    </article>
+
+    <section  style="background-color: #717171;">
+      
+      <div class="formField hidden fade-in-element">
+
+    <!-- Contact Section -->
+    
+    <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1" 
+    xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+          <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
+        </svg>
+
+        
+<div class=".formContainer formGrey" style="padding:128px 16px" id="contact">
+  <h3 class="formCenter">CONTACT</h3><hr class="formCenterLine"/>
+  <p class="formCenter formLarge">Lets get in touch. Send us a message:</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw formxxlarge formMarginRight"></i> Chicago, US</p>
+    <p><i class="fa fa-phone fa-fw formxxlarge formMarginRight"></i> Phone: +00 151515</p>
+    <p><i class="fa fa-envelope fa-fw formxxlarge formMarginRight"> </i> Email: mail@mail.com</p>
+    <br>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="formInput formBorder" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="formInput formBorder" type="email" placeholder="Email" required name="Email"></p>
+      <p><textarea  class="formInput formBorder" type="text" placeholder="Your Message" required name="Message" cols="30" rows="10"></textarea></p>
+      <p>
+        <button class="formButton formBlack" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  </div>
+</div>
+</div>
+    </section>
+
+    <!-- MAIN (Center website) -->
+<div class="main">
+
+  
+    <!-- Footer -->
+<footer class="footerCenter footerBlack footerPadding">
+  <a href="#home" class="footerButton footerGrey hidden fade-in-element"><i class="fa fa-arrow-up footerRight"></i>To the top</a>
+  <div class="footerLarge footerSection">
+    <i class="fa fa-facebook-official footerOpacity"></i>
+    <i class="fa fa-instagram footerOpacity"></i>
+    <i class="fa fa-snapchat footerOpacity"></i>
+    <i class="fa fa-pinterest-p footerOpacity"></i>
+    <i class="fa fa-twitter footerOpacity"></i>
+    <i class="fa fa-linkedin footerOpacity"></i>
+  </div>
+  <p id="foot">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="footerGreen">w3.css</a></p>
+</footer>
+
+<div class="fade-in-element hidden">“Branding Yourself is a good beginner’s guide on how to build an online presence using
+  social networks and blogs that will turn you into a thought leader or expert or just get
+  you a job.”
+  —Dan Schawbel, #1 International Bestselling Author of Me 2.0
+  “The biggest problem most people have with embracing the power of online networking
+  and personal brand building is they don’t know where to start. Erik Deckers and
+  Kyle Lacy take out the guesswork and roll the dice with platforms to find the right
+  combination for you in this book. The book is a recipe for success...your success.”
+  —Jason Falls, SocialMediaExplorer.com
+  “In this exceedingly useful book, Erik Deckers and Kyle Lacy provide step-by-step
+  guidance for building and maintaining powerful personas. With wit, wisdom, and
+  numerous expert tips, Branding Yourself is the new roadmap for navigating the sometimes
+  complex world of personal branding. If your best marketing plan is you (and it
+  is), then Branding Yourself should be your playbook.”
+  —Jay Baer, Coauthor of The NOW Revolution:
+  7 Shifts to Make Your Business Faster, Smarter, and More Social
+  “Our parents taught us to find a great job with benefits, put money toward retirement,
+  buy a home, and work hard, and you’ll reap the benefits. Our parents were wrong. The
+  job market was downsized; the retirement account was ransacked; the house lost its
+  value; and working hard has only put you in the unemployment line. Those who personally
+  branded themselves were able to capitalize on the down-turned economy, and
+  their busi
+  </div>
+        <time><p>
+          “Branding Yourself is a good beginner’s guide on how to build an online presence using
+social networks and blogs that will turn you into a thought leader or expert or just get
+you a job.”
+—Dan Schawbel, #1 International Bestselling Author of Me 2.0
+“The biggest problem most people have with embracing the power of online networking
+and personal brand building is they don’t know where to start. Erik Deckers and
+Kyle Lacy take out the guesswork and roll the dice with platforms to find the right
+combination for you in this book. The book is a recipe for success...your success.”
+—Jason Falls, SocialMediaExplorer.com
+“In this exceedingly useful book, Erik Deckers and Kyle Lacy provide step-by-step
+guidance for building and maintaining powerful personas. With wit, wisdom, and
+numerous expert tips, Branding Yourself is the new roadmap for navigating the sometimes
+complex world of personal branding. If your best marketing plan is you (and it
+is), then Branding Yourself should be your playbook.”
+—Jay Baer, Coauthor of The NOW Revolution:
+7 Shifts to Make Your Business Faster, Smarter, and More Social
+“Our parents taught us to find a great job with benefits, put money toward retirement,
+buy a home, and work hard, and you’ll reap the benefits. Our parents were wrong. The
+job market was downsized; the retirement account was ransacked; the house lost its
+value; and working hard has only put you in the unemployment line. Those who personally
+branded themselves were able to capitalize on the down-turned economy, and
+their businesses exploded. Erik Deckers and Kyle Lacy are providing you the blueprint
+for kicking off your brand and effectively leveraging online technologies to transform
+your future. [This book is] a must read.”
+—Douglas Karr, Founder of the Marketing Technology blog,
+CEO of DK New Media,
+and Author of Corporate Blogging for Dummies
+“In an environment filled with philosophy, platitudes, and ‘30,000-foot views,’ Erik
+Deckers and Kyle Lacy give us a refreshing how-to guide for actually doing something
+meaningful through social media. Here’s a trustworthy book to help you (and me) take
+real action to leverage emerging tools to create customers and make them happy!”
+—Trey Pennington, Entrepreneur, Story Prospector,
+Author of Spitball Marketing</p>
+
+          <p>
+          “Branding Yourself is a good beginner’s guide on how to build an online presence using
+          social networks and blogs that will turn you into a thought leader or expert or just get
+          you a job.”
+          —Dan Schawbel, #1 International Bestselling Author of Me 2.0
+          “The biggest problem most people have with embracing the power of online networking
+          and personal brand building is they don’t know where to start. Erik Deckers and
+          Kyle Lacy take out the guesswork and roll the dice with platforms to find the right
+          combination for you in this book. The book is a recipe for success...your success.”
+          —Jason Falls, SocialMediaExplorer.com
+          “In this exceedingly useful book, Erik Deckers and Kyle Lacy provide step-by-step
+          guidance for building and maintaining powerful personas. With wit, wisdom, and
+          numerous expert tips, Branding Yourself is the new roadmap for navigating the sometimes
+          complex world of personal branding. If your best marketing plan is you (and it
+          is), then Branding Yourself should be your playbook.”
+          —Jay Baer, Coauthor of The NOW Revolution:
+          7 Shifts to Make Your Business Faster, Smarter, and More Social
+          “Our parents taught us to find a great job with benefits, put money toward retirement,
+          buy a home, and work hard, and you’ll reap the benefits. Our parents were wrong. The
+          job market was downsized; the retirement account was ransacked; the house lost its
+          value; and working hard has only put you in the unemployment line. Those who personally
+          branded themselves were able to capitalize on the down-turned economy, and
+          their businesses exploded. Erik Deckers and Kyle Lacy are providing you the blueprint
+          for kicking off your brand and effectively leveraging online technologies to transform
+          your future. [This book is] a must read.”
+          —Douglas Karr, Founder of the Marketing Technology blog,
+          CEO of DK New Media,
+          and Author of Corporate Blogging for Dummies
+          “In an environment filled with philosophy, platitudes, and ‘30,000-foot views,’ Erik
+          Deckers and Kyle Lacy give us a refreshing how-to guide for actually doing something
+          meaningful through social media. Here’s a trustworthy book to help you (and me) take
+          real action to leverage emerging tools to create customers and make them happy!”
+          —Trey Pennington, Entrepreneur, Story Prospector,
+          Author of Spitball Marketing</p>
+          
+        </time>--> 
+  
+  
+        
+    <script>
+      
+      
+  /* When the user clicks on the button, 
+      toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+
+  
+
+
+
+
+
+    
+ 
+      
+
+    
+var i = 0;
+function onScrollSkill() {
+  if (i == 0) {
+    i = 1;
+    var elem = document.getElementById("progress1");
+    var width = 1;
+    var id = setInterval(frame, 20);
+    function frame() {
+      if (width >= 100) {
+        clearInterval(id);
+        i = 0;
+      } else {
+        width++;
+        elem.style.width = width + "%";
+      }
+    }
+  }
+}
+
+
+var slideIndex = 1;
+showSlides(slideIndex);
+function plusSlides(n) {
+showSlides(slideIndex += n);
+}
+function currentSlide(n) {
+showSlides(slideIndex = n);
+}
+function showSlides(n) {
+var i;
+var slides = document.getElementsByClassName("slideShows");
+var dots = document.getElementsByClassName("slideIndicator");
+if (n > slides.length) {slideIndex = 1}
+if (n < 1) {slideIndex = slides.length}
+for (i = 0; i < slides.length; i++) {
+slides[i].style.display = "none";
+}
+for (i = 0; i < dots.length; i++) {
+dots[i].className = dots[i].className.replace(" active", "");
+}
+slides[slideIndex-1].style.display = "block";
+dots[slideIndex-1].className += " active";
+}
+var myIndex = 0;
+carousel();
+function carousel() {
+var i;
+var x = document.getElementsByClassName("slideShows");
+for (i = 0; i < x.length; i++) {
+x[i].style.display = "none";
+}
+myIndex++;
+if (myIndex > x.length) {myIndex = 1}
+x[myIndex-1].style.display = "block";
+setTimeout(carousel, 3000);
+}
+
+function validForm() {
+var x = document.forms["myForm"]["email"].value;
+if(x == "") {
+  alert("Email must be filled out");
+  return false;
+}
+}
+
+
+
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+
+var i = 0;
+var txt = " Hello, I am Oyekanmi Oyetunji. I am a full-stack Javscript Programmer.";
+var speed = 200;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("myIntro").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+
+
+
+
+(function() {
+  var elements;
+  var windowHeight;
+
+ function init() {
+    elements = document.querySelectorAll('.hidden');
+    windowHeight = window.innerHeight;
+  }
+
+  function checkPosition() {
+    for (var i = 0; i < elements.length; i++) {
+      var element = elements[i];
+      var positionFromTop = elements[i].getBoundingClientRect().top;
+
+      if (positionFromTop - windowHeight <= 0) {
+        element.classList.add('fade-in-element');
+        element.classList.remove('hidden');
+      }
+    }
+  }
+
+  window.addEventListener('scroll', checkPosition);
+  window.addEventListener('resize', init);
+
+  init();
+  checkPosition();
+})();
+
+
+
+
+
+</script>
+
+
+    
+  
+
+
+</body>
+
+</html>
